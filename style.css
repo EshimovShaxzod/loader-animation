@@ -1,0 +1,226 @@
+
+.box{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: #2f4775;
+}
+
+.box>div{
+    width: 25px;
+    height: 50px;
+    animation-timing-function:linear;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    background-color: #00ff1e;
+}
+
+.box-animation:not(:last-child){
+
+    margin-right: 4px;
+
+}
+
+.box-one{
+    animation-name: box-one;
+}
+
+@keyframes box-one {
+
+    10%{
+        transform: scaleY(1.6);
+    }
+    20%{
+        transform: scaleY(1);
+    }
+    30%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+
+.box-two{
+    animation-name: box-two;
+}
+
+@keyframes box-two {
+    
+    10%{
+        transform: scaleY(1);
+    }
+    20%{
+        transform: scaleY(1.6);
+    }
+    30%{
+        transform: scaleY(1);
+    }
+    40%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    60%{
+        transform: scaleY(1);
+    }
+    70%{
+        transform: scaleY(1);
+    }
+    80%{
+        transform: scaleY(1);
+    }
+    90%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+
+}
+
+.box-three{
+    animation-name: box-three;
+}
+
+@keyframes box-three {
+    
+    10%{
+        transform: scaleY(1);
+    }
+    20%{
+        transform: scaleY(1);
+    }
+    30%{
+        transform: scaleY(1.6);
+    }
+    40%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    60%{
+        transform: scaleY(1);
+    }
+    70%{
+        transform: scaleY(1);
+    }
+    80%{
+        transform: scaleY(1);
+    }
+    90%{
+        transform: rotateY(1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+
+}
+
+
+.box-four{
+    animation-name: box-four;
+}
+
+@keyframes box-four {
+
+    10%{
+        transform: scaleY(1);
+    }
+    20%{
+        transform: scaleY(1);
+    }
+    30%{
+        transform: scaleY(1);
+    }
+    40%{
+        transform: scaleY(1.6);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    60%{
+        transform: scaleY(1);
+    }
+    70%{
+        transform: scaleY(1);
+    }
+    80%{
+        transform: scaleY(1);
+    }
+    90%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+    
+}
+
+
+.box-five{
+    animation-name: box-five;
+}
+
+@keyframes box-five{
+
+    10%{
+        transform: scaleY(1);
+    }
+    20%{
+        transform: scaleY(1);
+    }
+    30%{
+        transform: scaleY(1);
+    }
+    40%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(1.6);
+    }
+    60%{
+        transform: scaleY(1);
+    }
+    70%{
+        transform: scaleY(1);
+    }
+    80%{
+        transform: scaleY(1);
+    }
+    90%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+    
+}
